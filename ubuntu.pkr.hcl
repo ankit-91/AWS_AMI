@@ -33,7 +33,7 @@ build {
     inline = [
       "sudo apt-get update -y",
       "sudo apt-get install -y nginx",
-      "echo 'Hello from Packer!' > /var/www/html/index.html"
+      "echo 'Hello from Packer!' > /sudo tee var/www/html/index.html"
     ]
   }
 }
